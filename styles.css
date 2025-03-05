@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Navbar */
+header {
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.header {
+    background-image: url(Static/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+/* Search Section */
+.search {
+    text-align: center;
+    padding: 50px 20px;
+    /* background-color: white; */
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.search input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #ff4f5a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search button:hover {
+    background-color: #e0434d;
+}
+
+/* Restaurant Listings */
+.restaurants {
+    max-width: 1100px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.restaurant-card {
+    display: inline-block;
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05);
+}
+
+.restaurant-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.restaurant-card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.restaurant-card p {
+    color: #777;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
